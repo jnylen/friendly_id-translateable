@@ -1,0 +1,15 @@
+Gemfile.lock
+doc
+docs
+pkg
+.DS_Store
+coverage
+.yardoc
+*.gem
+*.sqlite3
+*.rbc
+*.lock
+.rbx
+bin
+.bundle
+vendor

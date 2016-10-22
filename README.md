@@ -34,11 +34,6 @@ Post.find("guerre-stellari")
 I18n.locale = :en
 Post.find("star-wars")
 ```
-Additionally, finds will fall back to the default locale:
-```ruby
-I18n.locale = :it
-Post.find("star-wars")
-```
 To find a slug by an explicit locale, perform the find inside a block
 passed to I18n's `with_locale` method:
 ```ruby
